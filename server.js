@@ -15,6 +15,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
+app.use(express.static('images'));
 
 // Set up rendering engine, Handlebars
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
