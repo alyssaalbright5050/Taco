@@ -1,4 +1,4 @@
 # Burger
 
-#LIVE LINK
+# Link
 https://dashboard.heroku.com/apps/eatdaburger-utsa
