@@ -1,5 +1,5 @@
 <header>
-	<h1>Eat Da Burger!</h1>
+	<h1>Eat Da Taco!</h1>
 </header><!-- /header -->
 
 <div class="wrapper">
@@ -12,7 +12,7 @@
 
 	<section id="burgers-container">
 		<div id="burgers-available">
-			<h2>YOUR BURGER</h2>
+			<h2>YOUR Taco</h2>
 			{{#each burgers}}
 				{{#unless this.devoured}}
 				  <div class="burger">
@@ -25,7 +25,7 @@
 			{{/each}}
 		</div>
 		<div id="burgers-devoured">
-			<h2>Devoured Burgers</h2>
+			<h2>Devoured Tacos</h2>
 			{{#each burgers}}
 				{{#if this.devoured}}
 				  <div class="burger">{{burger_name}} <span>#{{id}}</span></div>
