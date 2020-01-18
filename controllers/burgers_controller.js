@@ -14,9 +14,9 @@ router.get("/", function(req, res) {
 });
 
 router.post("/", function(req, res) {
-	console.log(req.body.burger_add);
+	console.log(req.body.burger_name);
 	if(req.body.burger_name !== "") {
-		burger.insertOne(req.body.burger_add.trim(), function() {
+		burger.insertOne(req.body.burger_name.trim(), function() {
 			res.redirect("/");
 		});
 	}
