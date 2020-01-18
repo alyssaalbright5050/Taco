@@ -5,6 +5,6 @@ USE burger_db;
 CREATE TABLE burgers (
 	id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
     burger_name VARCHAR(255) NOT NULL,
-    devoured BOOLEAN
+    devoured BOOLEAN,
     date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
